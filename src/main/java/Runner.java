@@ -20,8 +20,20 @@ public class Runner {
      * you are making a mistake. More on static here: https://www.baeldung.com/java-static
      *
      * @param in the String value you should change global_var to in.
+     * @return 
      */
     public void changeClassVar(String in){
+        Class.global_var = "xyz";
+        System.out.println(in);
+        
+        
+       
+        
+    
 
+  
     }
+
+    
+
 }
